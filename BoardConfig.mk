@@ -20,6 +20,8 @@ include device/acer/t20-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := picasso_e
 TARGET_OTA_ASSERT_DEVICE := picasso_e,a200
 
+TARGET_ARCH=arm
+
 TARGET_KERNEL_SOURCE := kernel/acer/t20-common
 TARGET_KERNEL_CONFIG := cyanogenmod_picasso_e_defconfig
 
