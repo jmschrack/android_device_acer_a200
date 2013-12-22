@@ -21,7 +21,7 @@ TARGET_BOOTLOADER_BOARD_NAME := picasso_e
 TARGET_OTA_ASSERT_DEVICE := picasso_e,a200
 
 TARGET_ARCH := arm
-TARGET_CPU_VARIANT := cortext-a9
+TARGET_CPU_VARIANT := cortex-a9
 
 TARGET_KERNEL_SOURCE := kernel/acer/t20-common
 TARGET_KERNEL_CONFIG := cyanogenmod_picasso_e_defconfig
