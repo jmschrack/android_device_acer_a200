@@ -25,6 +25,7 @@ TARGET_CPU_VARIANT := cortex-a9
 
 TARGET_KERNEL_SOURCE := kernel/acer/t20-common
 TARGET_KERNEL_CONFIG := cyanogenmod_picasso_e_defconfig
+#TARGET_PREBUILT_KERNEL := device/acer/a200/kernel
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
